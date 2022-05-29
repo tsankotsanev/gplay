@@ -22,16 +22,16 @@ For this project we are gonna be using [Pip](https://pip.pypa.io/en/stable/insta
 2. Activate virtual environment through the [terminal](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/) or if you're using [PyCharm](https://www.jetbrains.com/pycharm/) he can do this for you
 3. Install the project packages
 
-Install scrapy:
+Install [Scrapy](https://scrapy.org/):
 
 `pip3 install scrapy`
 
-Install [JSON Schema](https://github.com/scrapy-plugins/scrapy-jsonschema) which we're gonna be using to validate our data:
+Install [JSON Schema](https://github.com/scrapy-plugins/scrapy-jsonschema):
 
 `pip3 install scrapy-jsonschema`
 
 ## Pipelines
-* `scrapy_jsonschema.JsonSchemaValidatePipeline` - validate the entire item based on the given [JSON Schema](https://github.com/scrapy-plugins/scrapy-jsonschema)
+* `scrapy_jsonschema.JsonSchemaValidatePipeline` - validates the entire item based on the given [JSON Schema](https://github.com/scrapy-plugins/scrapy-jsonschema)
 * `gplay.pipelines.GplayPipeline` - stores the output data in [SQLite](https://www.sqlite.org/index.html) database
 
 ## Usage
