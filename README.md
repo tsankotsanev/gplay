@@ -16,7 +16,7 @@ For each we have to collect the information listed below:
 * price
 
 ## Installation
-For this project we are gonna be using [Pip](https://pip.pypa.io/en/stable/installation/) to install the packages we need
+For this project we are going to use [pip](https://pip.pypa.io/en/stable/installation/) to install the packages we need
 1. Clone the project  
 `git clone https://github.com/tsankotsanev/gplay`
 2. Activate virtual environment through the [terminal](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/) or if you're using [PyCharm](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html) he can do this for you
@@ -24,11 +24,11 @@ For this project we are gonna be using [Pip](https://pip.pypa.io/en/stable/insta
 
 Install [Scrapy](https://scrapy.org/):
 
-`pip3 install scrapy`
+`pip install scrapy`
 
 Install [JSON Schema](https://github.com/scrapy-plugins/scrapy-jsonschema):
 
-`pip3 install scrapy-jsonschema`
+`pip install scrapy-jsonschema`
 
 ## Pipelines
 * `scrapy_jsonschema.JsonSchemaValidatePipeline` - validates the entire item based on the given [JSON Schema](https://github.com/scrapy-plugins/scrapy-jsonschema)
