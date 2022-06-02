@@ -1,5 +1,5 @@
 # Gplay spider
-Scrapy project, that collects data from `gplay.bg` source. We are targeting products from the following categories:  
+Scrapy project, that collects data from [gplay.bg](https://gplay.bg/) source. We are targeting products from the following categories:  
 * Периферия
 * Хардуер
 
