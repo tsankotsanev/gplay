@@ -3,8 +3,7 @@ from ..items import GplayItem
 
 
 class GplaySpider(scrapy.Spider):
-    name = 'gplaySpider'
-    allowed_domains = ['gplay.bg']
+    name = 'gplay_spider'
     start_urls = ['http://gplay.bg/']
 
     def parse(self, response):
