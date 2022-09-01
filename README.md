@@ -18,7 +18,9 @@ For each we have to collect the information listed below:
 ## Installation
 For this project we are going to use [pip](https://pip.pypa.io/en/stable/installation/) to install the packages we need
 1. Clone the project  
-`git clone https://github.com/tsankotsanev/gplay`
+```
+git clone https://github.com/tsankotsanev/gplay
+```
 2. Activate virtual environment through a [terminal](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/) or if you're using [PyCharm](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html) he can do this for you
 3. Install the project packages
 
